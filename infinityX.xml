@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="Infinity-X-Devices" fetch="https://github.com/Infinity-X-Devices/" />
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
-  <project path="device/motorola/sm6225-common" remote="github" name="MotoBengal-InfinityX/android_device_motorola_sm6225-common" revision="14" />
+  <project path="device/motorola/sm6225-common" remote="Infinity-X-Devices" name="android_device_motorola_sm6225-common" revision="14" />
   <project path="vendor/motorola/sm6225-common" remote="github" name="TheMuppets/proprietary_vendor_motorola_sm6225-common" revision="lineage-21" />
-  <project path="kernel/motorola/sm6225" remote="github" name="moto-guamp/android_kernel_motorola_sm6225" revision="lineage-21" />
+  <project path="kernel/motorola/sm6225" remote="Infinity-X-Devices" name="android_kernel_motorola_sm6225" revision="14" />
   <project path="hardware/motorola" remote="github" name="LineageOS/android_hardware_motorola" revision="lineage-21" />
   <project path="system/qcom" remote="github" name="LineageOS/android_system_qcom" revision="lineage-21" />
 
-  <project path="device/motorola/guamp" remote="github" name="MotoBengal-InfinityX/android_device_motorola_guamp" revision="14" />
+  <project path="device/motorola/guamp" remote="Infinity-X-Devices" name="android_device_motorola_guamp" revision="14" />
   <project path="vendor/motorola/guamp" remote="github" name="TheMuppets/proprietary_vendor_motorola_guamp" revision="lineage-21" />
 
-  <project path="device/motorola/guam" remote="github" name="MotoBengal-InfinityX/android_device_motorola_guam" revision="14" />
+  <project path="device/motorola/guam" remote="Infinity-X-Devices" name="android_device_motorola_guam" revision="14" />
   <project path="vendor/motorola/guam" remote="gitlab" name="DelightReza/proprietary_vendor_motorola_guam" revision="lineage-21" />
 
-  <project path="device/motorola/cebu" remote="github" name="MotoBengal-InfinityX/android_device_motorola_cebu" revision="14" />
+  <project path="device/motorola/cebu" remote="Infinity-X-Devices" name="android_device_motorola_cebu" revision="14" />
   <project path="vendor/motorola/cebu" remote="gitlab" name="DelightReza/proprietary_vendor_motorola_cebu" revision="lineage-21" />
 
-  <project path="device/motorola/devon" remote="github" name="MotoBengal-InfinityX/android_device_motorola_devon" revision="14" />
+  <project path="device/motorola/devon" remote="Infinity-X-Devices" name="android_device_motorola_devon" revision="14" />
   <project path="vendor/motorola/devon" remote="github" name="TheMuppets/proprietary_vendor_motorola_devon" revision="lineage-21" />
 
-  <project path="device/motorola/hawao" remote="github" name="MotoBengal-InfinityX/android_device_motorola_hawao" revision="14" />
+  <project path="device/motorola/hawao" remote="Infinity-X-Devices" name="android_device_motorola_hawao" revision="14" />
   <project path="vendor/motorola/hawao" remote="github" name="TheMuppets/proprietary_vendor_motorola_hawao" revision="lineage-21" />
 
-  <project path="device/motorola/rhode" remote="github" name="MotoBengal-InfinityX/android_device_motorola_rhode" revision="14" />
+  <project path="device/motorola/rhode" remote="Infinity-X-Devices" name="android_device_motorola_rhode" revision="14" />
   <project path="vendor/motorola/rhode" remote="github" name="TheMuppets/proprietary_vendor_motorola_rhode" revision="lineage-21" />
 
 </manifest>
