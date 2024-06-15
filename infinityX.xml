@@ -27,4 +27,7 @@
   <project path="device/motorola/rhode" remote="Infinity-X-Devices" name="android_device_motorola_rhode" revision="14" />
   <project path="vendor/motorola/rhode" remote="github" name="TheMuppets/proprietary_vendor_motorola_rhode" revision="lineage-21" />
 
+  <project path="device/motorola/borneo" remote="Infinity-X-Devices" name="android_device_motorola_borneo" revision="14" />
+  <project path="vendor/motorola/borneo" remote="github" name="RazaDroidProject/proprietary_vendor_motorola_borneo" revision="lineage-21" />
+
 </manifest>
